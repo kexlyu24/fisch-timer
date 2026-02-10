@@ -3,8 +3,8 @@
 import { useState, useEffect } from 'react';
 
 export default function Home() {
-  const [timerData, setTimerData] = useState(null);
-  const [nextEventDate, setNextEventDate] = useState(null);
+  const [timerData, setTimerData] = useState<any>(null);
+  const [nextEventDate, setNextEventDate] = useState<any>(null);
   const [status, setStatus] = useState('LOADING');
 
   // --- LOGIC TETAP SAMA ---
